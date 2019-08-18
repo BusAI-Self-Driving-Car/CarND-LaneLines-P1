@@ -32,7 +32,10 @@ If you don't want to use the [CarND Term1 Starter Kit](https://classroom.udacity
 ###  Organization
 All the code in this repository can be finded in the <A HREF="https://github.com/rscova/CarND-LaneLines-P1/blob/master/writeup.md" target="_blank"> P1.ipynb</A> file.
 The folders **test_videos* and *test_images* contains the videos and images provided by Udacity Self-Driving Course.
+
 In the folders *test_videos_output* and *test_images_output* you can find the output of these videos and images with my pipeline.
+
+In the folder *experiments* there are the experiments and the middle steps to achieve the final outputs.
 
 ## Documentation
 
@@ -40,6 +43,4 @@ You can find the documentation of this code and the explanation of the pipeline 
 
 ## License 
 This repository is Copyright © 2019 Saul Cova-Rocamora. It is free software, and may be redistributed under the terms specified in the <A HREF="https://github.com/rscova/CarND-LaneLines-P1/blob/master/LICENSE" target="_blank">LICENSE</A> file.
-
-
 
