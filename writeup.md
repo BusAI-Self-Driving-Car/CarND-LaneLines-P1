@@ -9,11 +9,11 @@ This document is the reflection of the development of the pipeline to find lane 
 
 This document is divided in 3 sections: the first one, is the **pipeline** whit its corresponding experiments. The second one, is the **limitations** of the pipeline. And the last one is the possible **improvements** of the pipeline.
 
-### Pipeline
+## Pipeline
 This approach consist in a sequence of steps to obtain the lane lines of a roadway driving image:
 
- **Step 1: GrayScale, darken, colour space and color threshold**
- 1. Gray Scale, Darken and Color space
+### Step 1: GrayScale, darken, colour space and color threshold
+ **1. Gray Scale, Darken and Color space**
 
 <p align="center">
   <img src="test_images/solidWhiteCurve.jpg" width="200" alt="original" />
@@ -28,7 +28,7 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
   <img src="experiments/3_hls_solidYellowCurve.jpg" width="200" alt="hls" />
 </p>
 
- 2. HLS Colour threshold and final mask
+ **2. HLS Colour threshold and final mask**
 <p align="center">
   <img src="experiments/4_white_solidWhiteCurve.jpg" width="200" alt="white" />
   <img src="experiments/5_yellow_solidWhiteCurve.jpg" width="200" alt="yellow" />
@@ -40,7 +40,7 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
   <img src="experiments/6_mask_solidYellowCurve.jpg" width="200" alt="mask" />
 </p>
 
- **Step 2: Gaussian Blur and Edge Detection**
+### Step 2: Gaussian Blur and Edge Detection
 <p align="center">
   <img src="experiments/8_canny_solidWhiteCurve.jpg" width="200" alt="canny1" />
   <img src="experiments/9_combined_solidWhiteCurve.jpg" width="200" alt="combined1" />
@@ -50,14 +50,14 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
    <img src="experiments/9_combined_solidYellowCurve.jpg" width="200" alt="combined2" />
 </p>
 
- **Step 3: Define region of interest**
+### Step 3: Define region of interest
 <p align="center">
   <img src="experiments/10_roi_solidWhiteCurve.jpg" width="200" alt="roi" />
   <img src="experiments/9_combined_solidYellowCurve.jpg" width="200" alt="roi" />
 </p>
  
  
- **Step 4: Hough Transform**
+### Step 4: Hough Transform
 <p align="center">
   <img src="test_images_output/raw_lines_solidYellowCurve.jpg" width="200" alt="roi" />
   <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="roi" />
@@ -68,7 +68,10 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
   <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="roi" />
 </p>
  
- 
+
+## Limitations
+
+## Possible Improvements 
  
  
  
