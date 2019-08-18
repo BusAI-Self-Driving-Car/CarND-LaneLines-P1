@@ -16,14 +16,16 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
  1. Gray Scale, Darken and Color space
 
 <p align="center">
+  <img src="test_images/solidWhiteCurve.jpg" width="200" alt="original" />
   <img src="experiments/1_gray_solidWhiteCurve.jpg" width="200" alt="grey" />
   <img src="experiments/2_dark_solidWhiteCurve.jpg" width="200" alt="dark" />
   <img src="experiments/3_hls_solidWhiteCurve.jpg" width="200" alt="hls" />
 </p>
 <p align="center">
-  <img src="experiments/1_gray_solidWhiteRight.jpg" width="200" alt="grey" />
-  <img src="experiments/2_dark_solidWhiteRight.jpg" width="200" alt="dark" />
-  <img src="experiments/3_hls_solidWhiteRight.jpg" width="200" alt="hls" />
+  <img src="test_images/solidYellowCurve.jpg" width="200" alt="original" />
+  <img src="experiments/1_gray_solidYellowCurve.jpg" width="200" alt="grey" />
+  <img src="experiments/2_dark_solidYellowCurve.jpg" width="200" alt="dark" />
+  <img src="experiments/3_hls_solidYellowCurve.jpg" width="200" alt="hls" />
 </p>
 
 
