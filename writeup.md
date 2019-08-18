@@ -14,9 +14,9 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
 
  **Step 1: GrayScale, darken, colour space and color threshold**
  1. Gray Scale, Darken and Color space
- ```
+
 ![alt-text-1](experiments/1_gray_solidWhiteCurve.jpg "title-1") ![alt-text-2](experiments/2_dark_solidWhiteCurve.jpg "title-2")
-```
+
 
 
 2. 
