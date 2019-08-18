@@ -1,6 +1,7 @@
 # **Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+This repository contains my development of the Project: Finding Lane Lines proposed by the Udacity's Self-Driving Cars Nanodegree.
 
 <img src="test_images_output/lines_solidWhiteCurve.jpg" width="480" alt="Lane Lines" />
 
