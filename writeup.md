@@ -40,5 +40,43 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
   <img src="experiments/6_mask_solidYellowCurve.jpg" width="200" alt="mask" />
 </p>
 
+ **Step 2: Gaussian Blur and Edge Detection**
+<p align="center">
+  <img src="experiments/8_canny_solidWhiteCurve.jpg" width="200" alt="canny1" />
+  <img src="experiments/9_combined_solidWhiteCurve.jpg" width="200" alt="combined1" />
+</p>
+<p align="center">  
+  <img src="experiments/8_canny_solidYellowCurve.jpg" width="200" alt="canny2" />
+   <img src="experiments/9_combined_solidYellowCurve.jpg" width="200" alt="combined2" />
+</p>
 
+ **Step 3: Define region of interest**
+<p align="center">
+  <img src="experiments/10_roi_solidWhiteCurve.jpg" width="200" alt="roi" />
+  <img src="experiments/9_combined_solidYellowCurve.jpg" width="200" alt="roi" />
+</p>
+ 
+ 
+ **Step 4: Hough Transform**
+<p align="center">
+  <img src="test_images_output/raw_lines_solidYellowCurve.jpg" width="200" alt="roi" />
+  <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="roi" />
+</p>
 
+<p align="center">
+  <img src="test_images_output/raw_lines_solidYellowCurve.jpg" width="200" alt="roi" />
+  <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="roi" />
+</p>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
