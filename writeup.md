@@ -28,21 +28,17 @@ This approach consist in a sequence of steps to obtain the lane lines of a roadw
   <img src="experiments/3_hls_solidYellowCurve.jpg" width="200" alt="hls" />
 </p>
 
+ 2. HLS Colour threshold and final mask
+<p align="center">
+  <img src="experiments/4_white_solidWhiteCurve.jpg" width="200" alt="white" />
+  <img src="experiments/5_yellow_solidWhiteCurve.jpg" width="200" alt="yellow" />
+  <img src="experiments/6_mask_solidWhiteCurve.jpg" width="200" alt="mask" />
+</p>
+<p align="center">
+  <img src="experiments/4_white_solidYellowCurve.jpg" width="200" alt="white" />
+  <img src="experiments/5_yellow_solidYellowCurve.jpg" width="200" alt="yellow" />
+  <img src="experiments/6_mask_solidYellowCurve.jpg" width="200" alt="mask" />
+</p>
 
-
-
-2. 
-
-
-
-3. Gaussian smoothing and Edge detection (Canny method was used in this case)
-<img src="test_images_output/canny_edges.jpg" width="380" alt="canny" />
-4. Define the region of interest 
-<img src="test_images_output/roi_edges.jpg" width="380" alt="ROI" />
-5. Apply the Hough Transform
-<img src="test_images_output/hough.jpg" width="380" alt="Hough Transform" />
-
-6. Refine the lines to obtain two lines, one for each lane side
-<img src="test_images_output/lines_solidWhiteCurve.jpg" width="380" alt="Hough Transform" />
 
 
