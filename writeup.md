@@ -68,7 +68,7 @@ To don't have problems with the image resolution I have defined this points: `(0
 As you can see on the images, one the are inside the region of interest  keeps the edges.
 <p align="center">
   <img src="experiments/10_roi_solidWhiteCurve.jpg" width="200" alt="roi" />
-  <img src="experiments/9_combined_solidYellowCurve.jpg" width="200" alt="roi" />
+  <img src="experiments/10_roi_solidYellowCurve.jpg" width="200" alt="roi" />
 </p>
  
  
@@ -88,17 +88,12 @@ But, to get the left and right lines (right images) there are other steps to con
 </p>
 
 ## Limitations
+I have found two important limitations:
+* Different light conditions and weather makes difficult to see the lane marks.
+* Approach just valid for straight lanes and some roads are curvy.
 
 ## Possible Improvements 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+Deep learning is taking relevance in this field. With Convolutionals Neural Networks and Semantic Segmentation we can improve the detection of the road in several conditions, even at night. Or even using End-to-end learning to "teach" the car to drive itself. 
+
+More classical methods to improve the pipeline could be the use os RANSAC or other methods to detect curvy lines.
 
