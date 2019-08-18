@@ -73,17 +73,19 @@ As you can see on the images, one the are inside the region of interest  keeps t
  
  
 ### Step 4: Hough Transform
-The last step is the Hogh Transform 
+The last step is the Hough Transform. As a highway is almost a straight line, with the edges and the hough algorithm you can detect shapes, as lines. The left images show the detection of the lines.
+
+But, to get the left and right lines (right images) there are other steps to consider. First, you need to get the slope and intercept of each line.  Second, group the lines in clusters, in this case, 2 clusters (left and right) erasing the horizontal and too vertical lines. Third, filter the lines that have a slope and intercept too different to the mean value of all the lines (it prevent outliers, but in most of cases is not necessary), and use a low-pass filter to obtain more stability in the lines using previously information, because the lines should not have a very quick change in slope. Fourth, draw the line with the new slope and intercept.
+
 <p align="center">
-  <img src="test_images_output/raw_lines_solidYellowCurve.jpg" width="200" alt="roi" />
-  <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="roi" />
+  <img src="test_images_output/raw_lines_solidYellowCurve.jpg" width="200" alt="raw" />
+  <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="filtered" />
 </p>
 
 <p align="center">
-  <img src="test_images_output/raw_lines_solidYellowCurve.jpg" width="200" alt="roi" />
-  <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="roi" />
+  <img src="test_images_output/raw_lines_solidYellowCurve.jpg" width="200" alt="raw" />
+  <img src="test_images_output/lines_solidYellowCurve.jpg" width="200" alt="filtered" />
 </p>
- 
 
 ## Limitations
 
